@@ -1,5 +1,5 @@
 # Activerecord Time Scopes
-Short description and motivation.
+A simple gem that allows some of the most common time-scopes for ActiveRecord objects. 
 
 ## Installation
 Add this line to your application's Gemfile:
