@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.description = "A collection of time scopes for activerecord, including created_after/created_before/updated_after/etc"
   spec.license     = "MIT"
 
-  spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
+  spec.files = Dir["{app,config,db,lib}/**/*", "LICENSE", "README.md"]
 
   spec.add_dependency "rails", "~> 5.2.3"
 

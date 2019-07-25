@@ -1,8 +1,5 @@
-# ActiverecordTimeScopes
+# Activerecord Time Scopes
 Short description and motivation.
-
-## Usage
-How to use my plugin.
 
 ## Installation
 Add this line to your application's Gemfile:
@@ -21,8 +18,12 @@ Or install it yourself as:
 $ gem install activerecord_time_scopes
 ```
 
-## Contributing
-Contribution directions go here.
+## Usage
+This plugin enables the following methods:
+
+[created | updated] _ [before | after | between | today | yesterday | this_week | last_week | this_month | last_month | this_year | last_year]
+
+You can pass either datetime objects or ActiveRecord objects - if you pass an activerecord object, the relevant method (created/updated_at) will be used to search.
 
 ## License
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
